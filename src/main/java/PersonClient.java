@@ -1,7 +1,11 @@
 public class PersonClient {
+
+
     public static void main(String[] args) {
-        // Write some very very basic testing code here
-        // Create a Person and then call each of the
-        // methods on the Person
+        Person bob = new Person("Susie", "childs");
+        System.out.println(bob.getFirst_name() + " " + bob.getLast_name());
+        bob.setFirst_name("Milan");
+        bob.setLast_name("Boga");
+        System.out.println(bob.getFirst_name() + " " + bob.getLast_name());
     }
 }
