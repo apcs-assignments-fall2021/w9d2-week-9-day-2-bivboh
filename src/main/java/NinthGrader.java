@@ -11,7 +11,7 @@ public class NinthGrader extends Student{ // SOME CODE NEEDED IN THIS LINE
         System.out.println("I am currently" + x);
     }
 
-    public String toStr
+//    public String toStr
 
 
 }
